@@ -348,7 +348,8 @@ server <- function(input, output) {
                                   min = min(siniestralidad_dataframe$Año),
                                   max = max(siniestralidad_dataframe$Año),
                                   value = c(max(siniestralidad_dataframe$Año) - 7, max(siniestralidad_dataframe$Año)),
-                                  step = 1))),
+                                  step = 1,
+                                  sep = ""))),
       # Segunda fila: CheckboxGroupInput para seleccionar tipos de régimen de financiamiento
       fluidRow(column(width = 6,
                       checkboxGroupInput("regimen", "Tipos de Regimen de Financiamiento",
