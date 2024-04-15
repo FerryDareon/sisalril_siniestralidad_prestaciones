@@ -387,7 +387,8 @@ server <- function(input, output) {
                                   max = max(prestaciones_montos_dataframe$`Año de Cobertura`),
                                   value = c(max(prestaciones_montos_dataframe$`Año de Cobertura`) - 7, 
                                             max(prestaciones_montos_dataframe$`Año de Cobertura`)),
-                                  step = 1))),
+                                  step = 1,
+                                  sep = ""))),
       # Segunda fila: CheckboxGroupInput para seleccionar tipos de régimen de financiamiento
       fluidRow(column(width = 6,
                       checkboxGroupInput("regimen_pm", "Tipos de Regimen de Financiamiento",
@@ -413,7 +414,8 @@ server <- function(input, output) {
                                   max = max(prestaciones_servicio_dataframe$`Año de Cobertura`),
                                   value = c(max(prestaciones_servicio_dataframe$`Año de Cobertura`) - 7, 
                                             max(prestaciones_servicio_dataframe$`Año de Cobertura`)),
-                                  step = 1))),
+                                  step = 1,
+                                  sep = ""))),
       # Segunda fila: CheckboxGroupInput para seleccionar tipos de régimen de financiamiento
       fluidRow(column(width = 6,
                       checkboxGroupInput("regimen_ps", "Tipos de Regimen de Financiamiento",
