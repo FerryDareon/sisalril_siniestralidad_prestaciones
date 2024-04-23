@@ -1,4 +1,4 @@
-# sisalril_siniestralidad_prestaciones
+# DashBoard Interactivo de la Siniestralidad Serie Histórica del Seguro Familiar de Salud (SFS) en la República Dominicana
 
 Este es script el cual crea un reporte en `shiny` con R de la información que se encuentra en la SISALRIL con respecto al apartado de Estadisticas/Series Históricas SFS, donde se selecciona la Siniestralidad y Prestaciones. Posterior a un proceso realizado de WebScrapping realizado en Python consultar los reportes, procesarlos y limpiarlos.
 
