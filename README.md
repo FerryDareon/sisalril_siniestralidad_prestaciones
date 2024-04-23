@@ -9,7 +9,7 @@ library(shiny)
 
 runGitHub(repo = "sisalril_siniestralidad_prestaciones",username = "FerryDareon",ref = "main")
 ```
-![Screenshot 2024-04-13 014615](https://github.com/FerryDareon/sisalril_siniestralidad_prestaciones/assets/163454849/42a051db-23f6-492d-b523-fcad6cadb934)
+![image](https://github.com/FerryDareon/sisalril_siniestralidad_prestaciones/assets/163454849/23927e1a-e874-4e03-9b72-9be6a58973ad)
 
 El archivo de Jupyter Notebook detalla el proceso de extracción de datos en vivo utilizando Python y la biblioteca `selenium`. Este proceso permite realizar Web Scraping en la página de SISALRIL, específicamente en la sección de informaciones/estadísticas. El objetivo es obtener las URL de cada archivo ubicado en las carpetas de Siniestralidad, Prestaciones, Financiamiento y Afiliación, identificando el régimen de financiamiento a partir de las abreviaturas de cada informe, así como los códigos que varían según cómo se registra la información en el documento.
 
